@@ -36,6 +36,19 @@ body {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 header, section, form, footer {
     background-color: white;
 }
@@ -51,6 +64,11 @@ section {
 #hamburger {
     visibility: hidden;
     width: 0;
+}
+
+#hamburgerNav {
+    visibility: hidden;
+    height: 0;
 }
 
 #topNav {

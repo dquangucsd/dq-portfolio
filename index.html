@@ -17,7 +17,47 @@
 
 
 <body class="stack">
-    <nav id="topNav">
+    <nav id="hamburgerNav" role="navigation">
+        <div id="menuToggle">
+            <!--
+            A fake / hidden checkbox is used as click reciever,
+            so you can use the :checked selector on it.
+            -->
+            <input type="checkbox"></input>
+            
+            <!--
+            Some spans to act as a hamburger.
+            
+            They are acting like a real hamburger,
+            not that McDonalds stuff.
+            -->
+            <span></span>
+            <span></span>
+            <span></span>
+            
+            <!--
+            Too bad the menu has to be inside of the button
+            but hey, it's pure CSS magic.
+            -->
+            <ul id="menu">
+                <a href="./files/winter_2022_resume.pdf" target="_blank" rel="noopener noreferrer"><li>Resume</li></a>
+                <a href="#About-Me"><li>About Me</li></a>
+                <a href="#Projects"><li>Projects</li></a>
+                <a href="#Contact-Me"><li>Contact Me</li></a>
+            </ul>
+            
+        </div>
+
+
+        <!-- <picture id="hamburger"> <img src="./files/hamburger.png" alt="Tabs"> </picture> -->
+        <!-- rel tag noopener noreferrer prevents malicious attacks from pages I link to. This includes "tabnabbing"-->
+        <!-- <a href="./files/winter_2022_resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+        <a href="#About-Me">About Me</a>
+        <a href="#Projects">Projects</a>
+        <a href="#Contact-Me">Contact Me</a> -->
+    </nav>
+
+    <nav id="topNav" role="navigation">
         <picture id="hamburger"> <img src="./files/hamburger.png" alt="Tabs"> </picture>
         <!-- rel tag noopener noreferrer prevents malicious attacks from pages I link to. This includes "tabnabbing"-->
         <a href="./files/winter_2022_resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
