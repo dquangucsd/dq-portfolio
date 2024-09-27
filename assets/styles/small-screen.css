@@ -28,6 +28,7 @@
     
     body {
         -background-image: url('../../files/signature/dq-signature.png');
+        -webkit-text-size-adjust: none;
         background-color: var(--default-color);
         margin: 0;
         padding: 0;
